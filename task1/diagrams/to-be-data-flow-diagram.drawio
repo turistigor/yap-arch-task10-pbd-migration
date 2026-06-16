@@ -1,0 +1,529 @@
+<mxfile host="65bd71144e" scale="1" border="20">
+    <diagram id="vYeaagMj0SeVuxst9fVx" name="Medicine-flow">
+        <mxGraphModel dx="2101" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="66" target="57" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-140" y="65" as="sourcePoint"/>
+                        <mxPoint x="35" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Запись на прием&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;TLS, PII, Journal, Medical_Record&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
+                        <mxPoint x="12" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="66" target="58" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-175" y="280" as="sourcePoint"/>
+                        <mxPoint x="10" y="185" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Регистрационные данные&lt;div&gt;TLS,&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;PII, Patient_Data&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="25" vertex="1" connectable="0">
+                    <mxGeometry x="0.0176" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="66" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-150" y="300" as="sourcePoint"/>
+                        <mxPoint x="35" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="Данные пациента&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;TLS, PII, PHI, Medical_Record, Patient_Data&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="29" vertex="1" connectable="0">
+                    <mxGeometry x="-0.13" y="-2" relative="1" as="geometry">
+                        <mxPoint x="16" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="Journal-Doctor-FIO" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="120" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Patients" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="170" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;Data file&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="220" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Пациент&lt;div&gt;(авторизованный)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="160" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;RegistryByDate&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="310" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="79" target="57" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Редактирование приемов&lt;div&gt;TLS, Journal&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="80" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1138" y="2" relative="1" as="geometry">
+                        <mxPoint x="58" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="Врач&lt;div&gt;(авторизованный)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="40" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="0GKheQcRoNfeQaPPDGVW-81" value="Лаборатория" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="300" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="wfwjt4IRkApzVxjXpeZh-91" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="57" target="4sZpSZiIckWmruqa6aSi-81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wfwjt4IRkApzVxjXpeZh-96" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;PII, PHI&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wfwjt4IRkApzVxjXpeZh-91" vertex="1" connectable="0">
+                    <mxGeometry x="0.3971" relative="1" as="geometry">
+                        <mxPoint x="-72" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="f2zRFQ35ZJxbB4ds3jPX-87" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="58" target="4sZpSZiIckWmruqa6aSi-81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ifvd6wDdAFhZBTJDMF5Q-87" value="&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(0, 0, 0);&quot;&gt;маскировка&lt;br style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: start; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: center; color: rgb(63, 63, 63);&quot;&gt;PII, PHI, &lt;/span&gt;Medical_Record&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2zRFQ35ZJxbB4ds3jPX-87" vertex="1" connectable="0">
+                    <mxGeometry x="0.0605" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4sZpSZiIckWmruqa6aSi-81" value="Администратор&lt;div&gt;(авторизованный)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="170" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="wfwjt4IRkApzVxjXpeZh-88" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="72" target="4sZpSZiIckWmruqa6aSi-81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wfwjt4IRkApzVxjXpeZh-89" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="62" target="4sZpSZiIckWmruqa6aSi-81" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="f2zRFQ35ZJxbB4ds3jPX-88" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;маскировка&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); text-align: start; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); text-align: center;&quot;&gt;PII, PHI,&amp;nbsp;&lt;/span&gt;Medical_Record&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wfwjt4IRkApzVxjXpeZh-89" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2522" y="-2" relative="1" as="geometry">
+                        <mxPoint x="40" y="93" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wfwjt4IRkApzVxjXpeZh-97" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;маскировка&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;PII, PHI&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wfwjt4IRkApzVxjXpeZh-89" vertex="1" connectable="0">
+                    <mxGeometry x="0.0378" y="2" relative="1" as="geometry">
+                        <mxPoint x="3" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0GKheQcRoNfeQaPPDGVW-81" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="125" y="385" as="sourcePoint"/>
+                        <mxPoint x="285" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="Результаты анализов&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;TLS,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); text-align: start; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;PHI, Medical_Record, Patient_Data&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="73" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0788" y="2" relative="1" as="geometry">
+                        <mxPoint x="12" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lKZ6eOy0AhCaNljHosMT-81" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" parent="1" source="62" target="79" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="370" y="270"/>
+                            <mxPoint x="-140" y="270"/>
+                            <mxPoint x="-140" y="65"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lKZ6eOy0AhCaNljHosMT-82" value="Карты пациентов&lt;div&gt;TLS, PHI, Patient_Data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="lKZ6eOy0AhCaNljHosMT-81" vertex="1" connectable="0">
+                    <mxGeometry x="0.0497" relative="1" as="geometry">
+                        <mxPoint x="-120" y="-150" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="K-JQx-Ut38Hk9RN_1d9S" name="Economic-flow">
+        <mxGraphModel dx="1251" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-25" target="4XLq2dlywY5G7m1m0A3Q-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="400" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-2" value="Оплата приема" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4XLq2dlywY5G7m1m0A3Q-1" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1707" relative="1" as="geometry">
+                        <mxPoint x="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-3" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-5" target="4XLq2dlywY5G7m1m0A3Q-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-4" value="Оплата приема" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4XLq2dlywY5G7m1m0A3Q-3" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1143" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-5" value="Кассир" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="280" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-17" target="4XLq2dlywY5G7m1m0A3Q-24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="510" y="600" as="sourcePoint"/>
+                        <mxPoint x="590" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-7" value="Информация о принятии денег&lt;div&gt;TLS, PCI, Financial_Data, Patient_Data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4XLq2dlywY5G7m1m0A3Q-6" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0429" relative="1" as="geometry">
+                        <mxPoint y="-5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-10" target="4XLq2dlywY5G7m1m0A3Q-17" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-9" value="Информация о платеже&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;TLS, PCI,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Financial_Data, Patient_Data&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4XLq2dlywY5G7m1m0A3Q-8" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1455" relative="1" as="geometry">
+                        <mxPoint y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-10" value="ККМ" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="280" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-11" value="" style="edgeStyle=none;html=1;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-13" target="4XLq2dlywY5G7m1m0A3Q-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-12" value="Обработанный платеж&lt;div&gt;TLS, Financial_Data, PCI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4XLq2dlywY5G7m1m0A3Q-11" vertex="1" connectable="0">
+                    <mxGeometry x="0.0571" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-13" value="Бухгалтер&lt;div&gt;(авторизованный)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="774" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-14" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-16" target="4XLq2dlywY5G7m1m0A3Q-24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="630" y="710" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-15" value="Обработанный платеж&lt;div&gt;TLS&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4XLq2dlywY5G7m1m0A3Q-14" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-16" value="Процессинг платежей" style="ellipse;whiteSpace=wrap;html=1;dashed=0;strokeWidth=2;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="633" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-17" value="Обработка платежа" style="ellipse;whiteSpace=wrap;html=1;dashed=0;strokeWidth=2;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="390" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-18" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-20" target="4XLq2dlywY5G7m1m0A3Q-23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="886" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-19" value="Информация о ТМЦ&lt;div&gt;TLS, TMC, Warehouse_Data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4XLq2dlywY5G7m1m0A3Q-18" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0857" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-20" value="Сотрудник склада&lt;div&gt;(Авторизованный)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="774" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-21" style="edgeStyle=none;html=1;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-23" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="561" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-22" value="Внутренний обмен" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4XLq2dlywY5G7m1m0A3Q-21" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2148" y="1" relative="1" as="geometry">
+                        <mxPoint x="17" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-23" value="1С: Торговля и склад" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="546" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="dXU1aNQkzwV5-opSqq8N-4" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-24" target="dXU1aNQkzwV5-opSqq8N-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="dXU1aNQkzwV5-opSqq8N-5" value="Данные сотрудников&lt;div&gt;HR, обфускация, Financial_Data, Employee_Data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dXU1aNQkzwV5-opSqq8N-4" vertex="1" connectable="0">
+                    <mxGeometry x="0.0479" y="3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="h5DbnvY2dDGB52LNvXI3-3" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.208;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-24" target="4XLq2dlywY5G7m1m0A3Q-13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="562" y="590"/>
+                            <mxPoint x="470" y="590"/>
+                            <mxPoint x="470" y="799"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="h5DbnvY2dDGB52LNvXI3-4" value="Финансовые данные&lt;div&gt;Обфускация&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="h5DbnvY2dDGB52LNvXI3-3" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0455" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;1С Бухгалтерия&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="546" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="dXU1aNQkzwV5-opSqq8N-1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="4XLq2dlywY5G7m1m0A3Q-25" target="4XLq2dlywY5G7m1m0A3Q-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="140" y="220"/>
+                            <mxPoint x="720" y="220"/>
+                            <mxPoint x="720" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="dXU1aNQkzwV5-opSqq8N-2" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Информация о платеже&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;TLS, PCI, Financial_Data, Patient_Data&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="dXU1aNQkzwV5-opSqq8N-1" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1111" y="-5" relative="1" as="geometry">
+                        <mxPoint x="-5" y="-5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4XLq2dlywY5G7m1m0A3Q-25" value="Пациент" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="280" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="dXU1aNQkzwV5-opSqq8N-3" value="HR&lt;div&gt;(авторизованный)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="774" width="100" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="4apL7eLbehLU8p_yjJhS" name="Tech-flow">
+        <mxGraphModel dx="2101" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-4" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lgSMycPfWvQBVcf-FBk8-2" target="oG6LCrUdYxXN1gLHlVsX-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="570" y="145"/>
+                            <mxPoint x="570" y="173"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BHWx8nFD4_VZwL_CRdD0-1" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;PII, Journal, Medical_Record&lt;/span&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;System_Data&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oG6LCrUdYxXN1gLHlVsX-4" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6928" y="2" relative="1" as="geometry">
+                        <mxPoint x="81" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yh7ENVLNF12bjhkRf9tv-6" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lgSMycPfWvQBVcf-FBk8-2" target="gDu1RjZxkw7NfutCAGyn-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-220" y="145"/>
+                            <mxPoint x="-220" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-6" value="&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: start; color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); text-align: center;&quot;&gt;PII, Journal, Medical_Record&lt;/span&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;Backup&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yh7ENVLNF12bjhkRf9tv-6" vertex="1" connectable="0">
+                    <mxGeometry x="-0.574" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-46" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lgSMycPfWvQBVcf-FBk8-2" value="Journal-Doctor-FIO" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="130" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-5" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lgSMycPfWvQBVcf-FBk8-3" target="oG6LCrUdYxXN1gLHlVsX-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="570" y="45"/>
+                            <mxPoint x="570" y="173"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-4" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;PII, Patient_Data,&amp;nbsp;&lt;/span&gt;System_Data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oG6LCrUdYxXN1gLHlVsX-5" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6447" relative="1" as="geometry">
+                        <mxPoint x="9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yh7ENVLNF12bjhkRf9tv-1" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lgSMycPfWvQBVcf-FBk8-3" target="gDu1RjZxkw7NfutCAGyn-4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-20" y="40" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-220" y="45"/>
+                            <mxPoint x="-220" y="70"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-9" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;PII, Patient_Data,&amp;nbsp;&lt;/span&gt;Backup&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yh7ENVLNF12bjhkRf9tv-1" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4315" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-27" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lgSMycPfWvQBVcf-FBk8-3" value="Patients" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="30" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-6" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lgSMycPfWvQBVcf-FBk8-4" target="oG6LCrUdYxXN1gLHlVsX-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="170" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="570" y="93"/>
+                            <mxPoint x="570" y="173"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-5" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); text-align: start;&quot;&gt;TLS, PII, PHI, Medical_Record, Patient_Data,&amp;nbsp;&lt;/span&gt;System_Data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oG6LCrUdYxXN1gLHlVsX-6" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6111" relative="1" as="geometry">
+                        <mxPoint x="55" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yh7ENVLNF12bjhkRf9tv-2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lgSMycPfWvQBVcf-FBk8-4" target="gDu1RjZxkw7NfutCAGyn-4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-30" y="110" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-220" y="93"/>
+                            <mxPoint x="-220" y="70"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-10" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); text-align: start;&quot;&gt;TLS, PII, PHI, Medical_Record, Patient_Data,&amp;nbsp;&lt;/span&gt;Backup&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yh7ENVLNF12bjhkRf9tv-2" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4236" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-47" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lgSMycPfWvQBVcf-FBk8-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;Data file&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="78" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-7" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="lgSMycPfWvQBVcf-FBk8-5" target="oG6LCrUdYxXN1gLHlVsX-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="570" y="195"/>
+                            <mxPoint x="570" y="173"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-2" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); text-align: start;&quot;&gt;PHI, Medical_Record, Patient_Data,&amp;nbsp;&lt;/span&gt;System_Data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oG6LCrUdYxXN1gLHlVsX-7" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5895" y="2" relative="1" as="geometry">
+                        <mxPoint x="59" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yh7ENVLNF12bjhkRf9tv-4" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="lgSMycPfWvQBVcf-FBk8-5" target="gDu1RjZxkw7NfutCAGyn-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-220" y="195"/>
+                            <mxPoint x="-220" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-7" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); text-align: start;&quot;&gt;PHI, Medical_Record, Patient_Data,&amp;nbsp;&lt;/span&gt;Backup&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yh7ENVLNF12bjhkRf9tv-4" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4731" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-33" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="lgSMycPfWvQBVcf-FBk8-5" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;RegistryByDate&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="180" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-8" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="oG6LCrUdYxXN1gLHlVsX-1" target="oG6LCrUdYxXN1gLHlVsX-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="570" y="245"/>
+                            <mxPoint x="570" y="173"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ceDT9QMHqo8tFv8oE13m-2" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;TMC, Warehouse,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;System_Data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oG6LCrUdYxXN1gLHlVsX-8" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6238" y="-1" relative="1" as="geometry">
+                        <mxPoint x="48" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yh7ENVLNF12bjhkRf9tv-5" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oG6LCrUdYxXN1gLHlVsX-1" target="gDu1RjZxkw7NfutCAGyn-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-40" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-220" y="245"/>
+                            <mxPoint x="-220" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-1" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;TMC, Warehouse, Backup&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yh7ENVLNF12bjhkRf9tv-5" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4546" y="3" relative="1" as="geometry">
+                        <mxPoint x="-36" y="-3" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-1" value="1С: Торговля и склад" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="230" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-9" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oG6LCrUdYxXN1gLHlVsX-2" target="oG6LCrUdYxXN1gLHlVsX-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="570" y="295"/>
+                            <mxPoint x="570" y="173"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-10" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;обезличивание&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oG6LCrUdYxXN1gLHlVsX-9" vertex="1" connectable="0">
+                    <mxGeometry x="0.6024" relative="1" as="geometry">
+                        <mxPoint x="57" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-3" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;PCI, Financial_Data,&lt;/span&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;Patient_Data,&amp;nbsp;&lt;/span&gt;System_Data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oG6LCrUdYxXN1gLHlVsX-9" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6358" y="3" relative="1" as="geometry">
+                        <mxPoint x="51" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="Yh7ENVLNF12bjhkRf9tv-7" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oG6LCrUdYxXN1gLHlVsX-2" target="gDu1RjZxkw7NfutCAGyn-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-40" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-220" y="295"/>
+                            <mxPoint x="-220" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="-tQeBd0gSrz3HkwwoLwc-8" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;PCI, Financial_Data,&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;Patient_Data,&lt;/span&gt;&amp;nbsp;Backup&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Yh7ENVLNF12bjhkRf9tv-7" vertex="1" connectable="0">
+                    <mxGeometry x="-0.5455" relative="1" as="geometry">
+                        <mxPoint x="-28" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;1С Бухгалтерия&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="280" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4M3Llq-WUtsvHo8mYmVN-3" style="edgeStyle=none;html=1;" parent="1" source="oG6LCrUdYxXN1gLHlVsX-3" target="4M3Llq-WUtsvHo8mYmVN-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4M3Llq-WUtsvHo8mYmVN-8" value="&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;System_Data&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="4M3Llq-WUtsvHo8mYmVN-3" vertex="1" connectable="0">
+                    <mxGeometry x="0.0213" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oG6LCrUdYxXN1gLHlVsX-3" value="OLAP" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="158" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4M3Llq-WUtsvHo8mYmVN-5" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gDu1RjZxkw7NfutCAGyn-1" target="4M3Llq-WUtsvHo8mYmVN-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="gDu1RjZxkw7NfutCAGyn-1" value="Backups,&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;AES&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="-610" y="55" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="gDu1RjZxkw7NfutCAGyn-2" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gDu1RjZxkw7NfutCAGyn-4" target="gDu1RjZxkw7NfutCAGyn-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-260" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="gDu1RjZxkw7NfutCAGyn-3" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;PII, Backup&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gDu1RjZxkw7NfutCAGyn-2" vertex="1" connectable="0">
+                    <mxGeometry x="0.06" y="-1" relative="1" as="geometry">
+                        <mxPoint x="3" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="gDu1RjZxkw7NfutCAGyn-4" value="Шифрование&lt;div&gt;AES&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;strokeWidth=2;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="-350" y="30" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4M3Llq-WUtsvHo8mYmVN-6" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="gDu1RjZxkw7NfutCAGyn-5" target="4M3Llq-WUtsvHo8mYmVN-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="gDu1RjZxkw7NfutCAGyn-5" value="Backups, СКЗИ" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="-610" y="205" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="gDu1RjZxkw7NfutCAGyn-6" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gDu1RjZxkw7NfutCAGyn-8" target="gDu1RjZxkw7NfutCAGyn-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="gDu1RjZxkw7NfutCAGyn-7" value="&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;PHI, Backup&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gDu1RjZxkw7NfutCAGyn-6" vertex="1" connectable="0">
+                    <mxGeometry y="1" relative="1" as="geometry">
+                        <mxPoint x="3" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="gDu1RjZxkw7NfutCAGyn-8" value="Шифрование&lt;div&gt;СКЗИ&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;dashed=0;strokeWidth=2;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
+                    <mxGeometry x="-350" y="180" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="4M3Llq-WUtsvHo8mYmVN-1" value="Аналитик&lt;div&gt;(авторизованный)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="282" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4M3Llq-WUtsvHo8mYmVN-4" value="DevOps, Admin&lt;br&gt;&lt;div&gt;(авторизованный)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+                    <mxGeometry x="-760" y="120" width="100" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
